@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color: #C8E6C9;
+    height: 100%;
+    width: 100%; 
+  }
+  article{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+  }
+  .text{
+    text-align: center;
+    position: relative;
+    padding: 2vw;
+    color: #607D8B;
+  }
+  h1{
+    font-size:40px;
+    color: #607D8B;
+  }
+  .card_block--1{
+    position: relative;
+    background-image: url(https://greenblender.com/smoothies/wp-content/uploads/2017/07/nectarine-banana-smoothie-recipe-2.jpg);
+    background-size:cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 300px;
+    height:200px;
+    opacity:0.9;
+    margin:1vw;
+  }
+  .card_date{
+    position: relative;
+    width: 20px;
+    top: 10px;
+    left: 15px;
+    border: 3px solid gray;
+    background:gray;
+    font-size:16px;
+    color: white;
+    text-align:center;
+    border-radius: 5px;
+    width: 3vw; 
+  }
+  .card_content{
+    position: relative;
+    top: 6vw;
+    left: 1vw;
+    font-size: 20px;
+    color: #3F51B5;
+  }
+  .card_content--hours{
+      position: relative;
+    left: 1vw;
+    top: 7vw;
+    font-size: 10px;
+    color: #3F51B5;
+  }
+  .card_block--2{
+    position: static;
+    background-image: url(https://hippocratesinst.org/wp-content/uploads/2016/08/GettyImages-521507188.jpg);
+    background-size:cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 300px;
+    height:200px;
+    opacity:0.9;
+    margin:1vw;
+  }
+  .card_block--3{
+    position: static;
+    background-image: url(https://resources.stuff.co.nz/content/dam/images/1/k/v/x/u/g/image.related.StuffLandscapeSixteenByNine.710x400.1nlh41.png/1516324953906.jpg);
+    background-size:cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 300px;
+    height:200px;
+    opacity:0.9;
+    margin:1vw;
+  }
+  .footer{
+
+    position: relative;
+    left:600px;
+    top: 30px;
+    background-color: #009688;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid #009688;
+    box-sizing: border-box;
+    width: 150px;
+    height: 35px;
+  }
+  .footer_text{
+    position: relative;
+    left:25px;
+    top: 7px;
+  }
